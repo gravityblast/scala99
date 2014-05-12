@@ -1,4 +1,4 @@
-name := "Hello"
+name := "Scala99"
 
 version := "0.1.0"
 
