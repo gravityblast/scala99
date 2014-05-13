@@ -6,7 +6,7 @@ import org.scalatest.junit.JUnitRunner
 class P02Suite extends FunSuite {
   import P02._
 
-  test("return the penultimate element passing a valid list") {
+  test("returns the penultimate element passing a valid list") {
     assert(penultimate(List(1, 2, 3, 4)) === 3)
   }
 
@@ -28,4 +28,3 @@ class P02Suite extends FunSuite {
     }
   }
 }
-

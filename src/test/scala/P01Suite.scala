@@ -6,11 +6,11 @@ import org.scalatest.junit.JUnitRunner
 class P01Suite extends FunSuite {
   import P01._
 
-  test("return the last element passing a valid list") {
+  test("returns the last element passing a valid list") {
     assert(last(List(1, 2, 3, 4)) === 4)
   }
 
-  test("return the last element passing a list with 1 element") {
+  test("returns the last element passing a list with 1 element") {
     assert(last(List(3)) === 3)
   }
 

@@ -6,7 +6,7 @@ import org.scalatest.junit.JUnitRunner
 class P03Suite extends FunSuite {
   import P03._
 
-  test("return the nth element passing a valid list") {
+  test("returns the nth element passing a valid list") {
     assert(nth(2, List(1, 2, 3, 4)) === 3)
     assert(nth(3, List(1, 2, 3, 4)) === 4)
   }
@@ -23,5 +23,3 @@ class P03Suite extends FunSuite {
     }
   }
 }
-
-
