@@ -17,5 +17,3 @@ object P04 {
   //   case _ :: tail => 1 + length(tail)
   // }
 }
-
-
