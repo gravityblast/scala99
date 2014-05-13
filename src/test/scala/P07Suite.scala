@@ -12,6 +12,3 @@ class P07Suite extends FunSuite {
     assert(flatten(a) === b)
   }
 }
-
-
-

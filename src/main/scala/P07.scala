@@ -9,4 +9,3 @@ object P07 {
     case e => List(e)
   }
 }
-
